@@ -1,0 +1,45 @@
+{
+  "name": "dark_history",
+  "target_asl": 5.0,
+  "motion_weights": {
+    "zoom_in": 0.45,
+    "zoom_out": 0.2,
+    "pan_left": 0.12,
+    "pan_right": 0.12,
+    "pan_up": 0.04,
+    "pan_down": 0.04,
+    "static": 0.03
+  },
+  "zoom_amt": 0.28,
+  "pan_scale": 1.0,
+  "transition_weights": {
+    "fade": 0.45,
+    "dip": 0.25,
+    "flash": 0.08,
+    "glitch": 0.07,
+    "whip": 0.03,
+    "cut": 0.12
+  },
+  "grade_params": {
+    "sat": 0.45,
+    "contrast": 1.18,
+    "warmth": 0.04,
+    "vignette": 0.5,
+    "grain": 0.055
+  },
+  "text": {
+    "overlays_per_min": 2.5,
+    "avg_duration": 3.2,
+    "position": "center"
+  },
+  "sound": {
+    "music_volume": 0.26,
+    "duck": 0.82,
+    "sfx_on_cut": 0.25,
+    "impact_on_text": true,
+    "bass": 0.7
+  },
+  "effects": {
+    "glitch_prob": 0.002
+  }
+}

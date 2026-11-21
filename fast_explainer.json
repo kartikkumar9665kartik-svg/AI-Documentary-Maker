@@ -1,0 +1,45 @@
+{
+  "name": "fast_explainer",
+  "target_asl": 2.8,
+  "motion_weights": {
+    "zoom_in": 0.35,
+    "zoom_out": 0.2,
+    "pan_left": 0.15,
+    "pan_right": 0.15,
+    "pan_up": 0.05,
+    "pan_down": 0.05,
+    "static": 0.05
+  },
+  "zoom_amt": 0.22,
+  "pan_scale": 1.4,
+  "transition_weights": {
+    "fade": 0.1,
+    "dip": 0.03,
+    "flash": 0.1,
+    "glitch": 0.17,
+    "whip": 0.2,
+    "cut": 0.4
+  },
+  "grade_params": {
+    "sat": 0.85,
+    "contrast": 1.12,
+    "warmth": 0.0,
+    "vignette": 0.3,
+    "grain": 0.03
+  },
+  "text": {
+    "overlays_per_min": 5.0,
+    "avg_duration": 2.4,
+    "position": "center"
+  },
+  "sound": {
+    "music_volume": 0.32,
+    "duck": 0.75,
+    "sfx_on_cut": 0.6,
+    "impact_on_text": true,
+    "bass": 0.5
+  },
+  "effects": {
+    "glitch_prob": 0.004
+  }
+}

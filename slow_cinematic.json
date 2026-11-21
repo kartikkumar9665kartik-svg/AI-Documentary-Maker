@@ -1,0 +1,45 @@
+{
+  "name": "slow_cinematic",
+  "target_asl": 8.0,
+  "motion_weights": {
+    "zoom_in": 0.5,
+    "zoom_out": 0.25,
+    "pan_left": 0.1,
+    "pan_right": 0.1,
+    "pan_up": 0.02,
+    "pan_down": 0.02,
+    "static": 0.01
+  },
+  "zoom_amt": 0.35,
+  "pan_scale": 0.8,
+  "transition_weights": {
+    "fade": 0.7,
+    "dip": 0.2,
+    "flash": 0.0,
+    "glitch": 0.0,
+    "whip": 0.0,
+    "cut": 0.1
+  },
+  "grade_params": {
+    "sat": 0.55,
+    "contrast": 1.1,
+    "warmth": 0.05,
+    "vignette": 0.45,
+    "grain": 0.04
+  },
+  "text": {
+    "overlays_per_min": 1.0,
+    "avg_duration": 4.0,
+    "position": "bottom"
+  },
+  "sound": {
+    "music_volume": 0.34,
+    "duck": 0.7,
+    "sfx_on_cut": 0.0,
+    "impact_on_text": false,
+    "bass": 0.4
+  },
+  "effects": {
+    "glitch_prob": 0.0
+  }
+}
